@@ -202,9 +202,10 @@ namespace YogaEssentials1.Logic
                     myWriter.Write(strPost);
                 }
             }
-            catch (Exception)
+            catch (Exception e)
             {
-                // No logging for this tutorial.
+                // Log the exception.
+                YogaEssentials1.Logic.ExceptionUtility.LogException(e, "HttpCall in PayPalFunction.cs");
             }
 
             //Retrieve the Response returned from the NVP API call to PayPal.
