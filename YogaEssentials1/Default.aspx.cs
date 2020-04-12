@@ -12,7 +12,7 @@ namespace YogaEssentials1
         protected void Page_Load(object sender, EventArgs e)
         {
             //throw new InvalidOperationException("An InvalidOperationException " +
-            //    "occurred in the Page_Load handler on the Default.aspx page.");
+            //  /  "occurred in the Page_Load handler on the Default.aspx page.");
         }
 
         private void Page_Error(object sender, EventArgs e)
